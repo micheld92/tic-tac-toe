@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(135deg, #5BC0EB, #B6A6CA);
+}
+html{
+    font-size: 16px;
+}
+.wrapper{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.container{
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+}
+.button-option{
+    background: #fff;
+    height: 22vmin;
+    width: 22vmin;
+    border: none;
+    border-radius: 5px;
+    font-size: 12vmin;
+    font-weight: 600;
+    color: #3A405A;
+    box-shadow: 0 0 15px rgba(0, 0 , 0, 0.1);
+}
+.button-option:hover{
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+}
+#restart{
+    font-size: 1.3em;
+    margin-top: 1.5em;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: #0a0027;
+    color: #fff;
+    border: none;
+    position: relative;
+    margin: 1.5em auto 0 auto;
+    display: block;
+}
+.popup{
+    background: linear-gradient(135deg, #5BC0EB, #d161ff);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 12vmin;
+}
+#new-game{
+    font-size: .5em;
+    padding: 0.5em 1em;
+    background-color: #0a0027;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+#msg{
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+}
+.popup.hide{
+    display: none;
+}
+
+/*
+#5BC0EB
+#FFFFEA
+*/
